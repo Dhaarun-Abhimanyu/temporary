@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PSG College</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    /* Header and Navigation */
+    header {
+      background: #004080;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #00264d;
+      padding: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+      color: #fff;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+    }
+
+    /* Sections */
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      font-size: 1.1rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* Courses Section */
+    .courses {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .course-card {
+      background: #f4f4f4;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .course-card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    /* Footer */
+    footer {
+      background: #00264d;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .courses {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>PSG College</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to PSG College</h1>
+    <p>Empowering students with knowledge and innovation since 1950.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>PSG College is a premier institution dedicated to providing quality education and fostering innovation. With state-of-the-art facilities and experienced faculty, we aim to shape the leaders of tomorrow.</p>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses" class="section">
+    <h2>Our Courses</h2>
+    <div class="courses">
+      <div class="course-card">
+        <h3>Computer Science</h3>
+        <p>Learn the fundamentals of programming, algorithms, and software development.</p>
+      </div>
+      <div class="course-card">
+        <h3>Business Administration</h3>
+        <p>Gain expertise in management, finance, and entrepreneurship.</p>
+      </div>
+      <div class="course-card">
+        <h3>Engineering</h3>
+        <p>Explore the world of engineering with hands-on projects and research.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>&copy; 2023 PSG College. All rights reserved.</p>
+  </footer>
+</body>
+</html>
