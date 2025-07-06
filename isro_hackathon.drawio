@@ -1,9 +1,39 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="Page-1" id="iT9jq45ob3nQmzjqpm8d">
-    <mxGraphModel>
+    <mxGraphModel dx="1128" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vmNGoQQQBREOA4ybmaaf-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vmNGoQQQBREOA4ybmaaf-2" value="SUBMIT QUERIES" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="91" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vmNGoQQQBREOA4ybmaaf-3" value="VIEW CHAIN OF THOUGHT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="312" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vmNGoQQQBREOA4ybmaaf-4" value="DOWNLOAD LOGS, MAP, etc" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vmNGoQQQBREOA4ybmaaf-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="vmNGoQQQBREOA4ybmaaf-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="290" as="sourcePoint" />
+            <mxPoint x="140" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmNGoQQQBREOA4ybmaaf-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="vmNGoQQQBREOA4ybmaaf-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="260" as="sourcePoint" />
+            <mxPoint x="130" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmNGoQQQBREOA4ybmaaf-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.593;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="vmNGoQQQBREOA4ybmaaf-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="221" as="sourcePoint" />
+            <mxPoint x="140" y="171" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
